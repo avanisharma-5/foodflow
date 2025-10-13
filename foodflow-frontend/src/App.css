@@ -1,0 +1,18 @@
+/* Set a nice background for the entire app */
+body {
+  
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Ensure content is readable over the background */
+  .app-container {
+    min-height: 100vh;
+    backdrop-filter: blur(5px); /* Optional: Slight blur effect */
+    background-color: rgba(255, 255, 255, 0.8); /* Light transparency for better readability */
+    padding-top: 60px; /* Offset for navbar */
+  }
+  img{
+    margin-right:10px;
+    width:500px;
+    height:500px;
+  }
